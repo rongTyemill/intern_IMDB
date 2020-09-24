@@ -1,0 +1,9 @@
+<div class="row">
+      <% @movies.each do |movie| %>
+	    <div class="col-sm-6 col-md-3">
+	      <div>
+	        <%= link_to movie.title, movie %>
+          </div>
+	    </div>
+	  <% end %>
+	</div>
